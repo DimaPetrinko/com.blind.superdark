@@ -1,3 +1,5 @@
+#nullable disable
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -61,10 +63,10 @@ namespace SuperDarkEditor
                 Set(selector, property, value);
         }
 
-        public UssRuleSet OnlySelector(string selector)
+        public UssRuleSet Where(Func<(string Selector, string Property, string Value), bool> predicate)
         {
             var subset = new UssRuleSet();
-            foreach (var (_, property, value) in Declarations.Where(declaration => declaration.Selector == selector))
+            foreach (var (selector, property, value) in Declarations.Where(predicate))
                 subset.Set(selector, property, value);
 
             return subset;

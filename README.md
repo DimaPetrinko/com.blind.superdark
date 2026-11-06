@@ -44,7 +44,7 @@ Only dark neutral colors change; everything else keeps Unity's value.
 Package Manager → **+** → **Install package from git URL**:
 
 ```
-https://github.com/DimaPetrinko/com.blind.superdark.git#1.1.0
+https://github.com/DimaPetrinko/com.blind.superdark.git#1.1.1
 ```
 
 The Git install is read-only: it uses the overrides committed for that version and never regenerates.

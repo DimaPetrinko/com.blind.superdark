@@ -1,3 +1,4 @@
+#nullable disable
 using System;
 using System.IO;
 using System.Linq;
@@ -13,7 +14,7 @@ namespace SuperDarkEditor
     [InitializeOnLoad]
     internal static class OverrideRegeneration
     {
-        private const int GeneratorVersion = 4;
+        private const int GeneratorVersion = 5;
         private const string PackageRoot = "Packages/com.blind.superdark";
         private const string UIToolkitOverridesFolder = PackageRoot + "/Editor/Generated/UIToolkit";
         private const string CatalogOverridesAssetPath = PackageRoot + "/Editor/StyleSheets/Extensions/Generated/dark.uss";
@@ -24,13 +25,31 @@ namespace SuperDarkEditor
 
         static OverrideRegeneration()
         {
-            EditorApplication.delayCall += RegenerateIfStale;
+            ScheduleStalenessCheck();
+            Events.registeredPackages += _ => ScheduleStalenessCheck();
         }
 
         public static event Action Regenerated;
 
         public static string UIToolkitOverrideAssetPath(string sourceSheetName) =>
             $"{UIToolkitOverridesFolder}/{_unsafeFileNameCharacters.Replace(sourceSheetName, "_")}.uss";
+
+        private static PackageInfo OwnPackage => PackageInfo.FindForAssembly(typeof(OverrideRegeneration).Assembly);
+
+        private static void ScheduleStalenessCheck()
+        {
+            EditorApplication.update -= RegenerateIfStaleOnceEditorIsIdle;
+            EditorApplication.update += RegenerateIfStaleOnceEditorIsIdle;
+        }
+
+        private static void RegenerateIfStaleOnceEditorIsIdle()
+        {
+            if (EditorApplication.isCompiling || EditorApplication.isUpdating || OwnPackage == null)
+                return;
+
+            EditorApplication.update -= RegenerateIfStaleOnceEditorIsIdle;
+            RegenerateIfStale();
+        }
 
         private static void RegenerateIfStale()
         {
@@ -56,7 +75,7 @@ namespace SuperDarkEditor
 
         private static bool IsPackageWritable()
         {
-            var source = PackageInfo.FindForAssembly(typeof(OverrideRegeneration).Assembly).source;
+            var source = OwnPackage.source;
             return source == PackageSource.Local || source == PackageSource.Embedded;
         }
 
@@ -80,13 +99,14 @@ namespace SuperDarkEditor
                 .ToList()
                 .Any(changed => changed);
 
-            var catalogSheets = UnityThemeSources.BuiltInCatalogPaths
-                .Select(path => EditorGUIUtility.Load(path) as StyleSheet)
+            var catalogSheets = UnityThemeSources.LoadBuiltInCatalogSheets()
                 .Concat(UnityThemeSources.FindPackageCatalogPaths(PackageRoot).Select(AssetDatabase.LoadAssetAtPath<StyleSheet>))
                 .Where(styleSheet => styleSheet != null);
 
+            var uiToolkitRootVariables = DarkOverrideBuilder.Build(ParseSheet(UnityThemeSources.LoadUIToolkitDarkTheme()))
+                .Where(declaration => declaration.Selector == RootSelector);
             var catalogOverrides = DarkOverrideBuilder.Build(UssRuleSet.Combine(catalogSheets.Select(ParseSheet)));
-            catalogOverrides.MergeFrom(DarkOverrideBuilder.Build(ParseSheet(UnityThemeSources.LoadUIToolkitDarkTheme())).OnlySelector(RootSelector));
+            catalogOverrides.MergeFrom(uiToolkitRootVariables);
             var catalogChanged = WriteMergedOverrides(CatalogOverridesAssetPath, catalogOverrides);
 
             if (!uiToolkitChanged && !catalogChanged)
@@ -106,19 +126,33 @@ namespace SuperDarkEditor
 
             var merged = UssRuleSet.Parse(existingUss);
             merged.MergeFrom(overrides);
-            var mergedUss = merged.ToUss();
+            var validOverrides = merged.Where(declaration => UnityThemeSources.IsValidUssProperty(declaration.Property));
 
-            if (mergedUss == existingUss)
+            if (validOverrides.IsEmpty)
+                return DeleteWithMeta(filePath);
+
+            var validUss = validOverrides.ToUss();
+            if (validUss == existingUss)
                 return false;
 
             Directory.CreateDirectory(Path.GetDirectoryName(filePath));
-            File.WriteAllText(filePath, mergedUss);
+            File.WriteAllText(filePath, validUss);
+            return true;
+        }
+
+        private static bool DeleteWithMeta(string filePath)
+        {
+            if (!File.Exists(filePath))
+                return false;
+
+            File.Delete(filePath);
+            File.Delete(filePath + ".meta");
             return true;
         }
 
         private static string ToFilePath(string assetPath)
         {
-            var packageDirectory = PackageInfo.FindForAssembly(typeof(OverrideRegeneration).Assembly).resolvedPath;
+            var packageDirectory = OwnPackage.resolvedPath;
             return Path.Combine(packageDirectory, assetPath.Substring(PackageRoot.Length + 1));
         }
     }

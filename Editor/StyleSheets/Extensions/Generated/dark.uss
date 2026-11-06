@@ -220,17 +220,7 @@
     background-color: rgba(32, 32, 36, 0.9);
 }
 
-.game-object-tree-view {
-    -unity-object-tree-hovered-color: rgb(33, 33, 37);
-}
-
-.quick-search-tips-section {
-    border: 0px solid rgb(23, 23, 27);
-}
-
 .game-object-tree-view-scene-visibility {
-    -unity-object-hovered-color: rgb(31, 31, 35);
-    -unity-object-selected-no-focus-color: rgb(32, 32, 36);
     background-color: rgb(23, 23, 27);
 }
 

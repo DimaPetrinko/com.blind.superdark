@@ -1,7 +1,3 @@
-.quick-search-tips-section {
-    border: 0px solid rgb(23, 23, 27);
-}
-
 .secondary-button {
     background-color: rgba(49, 49, 53, 0.3);
 }

@@ -1,3 +1,4 @@
+#nullable disable
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -16,13 +17,24 @@ namespace SuperDarkEditor
         private const string ExtensionsFolderMarker = "/StyleSheets/Extensions/";
         private const string EditorResourcesPath = "Library/unity editor resources";
         private const string PackagesFolder = "Packages";
+        private const string CustomPropertyPrefix = "--";
 
         private static readonly Type _editorResourcesType = EditorType("UnityEditor.Experimental.EditorResources");
         private static readonly Type _ussExportOptionsType = EditorType("UnityEditor.StyleSheets.UssExportOptions");
+        private static readonly MethodInfo _tryGetUssPropertySyntax = typeof(VisualElement).Assembly
+            .GetType("UnityEngine.UIElements.StyleSheets.StylePropertyCache", throwOnError: true)
+            .GetMethod("TryGetSyntax", AnyStatic);
         private static readonly string[] _skippedSheetNameParts = { "light", "inlinestyle" };
 
-        public static IEnumerable<string> BuiltInCatalogPaths =>
-            ((IEnumerable)_editorResourcesType.GetMethod("GetDefaultStyleCatalogPaths", AnyStatic).Invoke(null, null)).Cast<string>();
+        public static IEnumerable<StyleSheet> LoadBuiltInCatalogSheets() =>
+            ((IEnumerable)_editorResourcesType.GetMethod("GetDefaultStyleCatalogPaths", AnyStatic).Invoke(null, null))
+                .Cast<string>()
+                .Select(path => EditorGUIUtility.Load(path) as StyleSheet)
+                .Where(styleSheet => styleSheet != null);
+
+        public static bool IsValidUssProperty(string property) =>
+            property.StartsWith(CustomPropertyPrefix, StringComparison.Ordinal)
+            || (bool)_tryGetUssPropertySyntax.Invoke(null, new object[] { property, null });
 
         public static StyleSheet LoadUIToolkitDarkTheme() =>
             (StyleSheet)EditorType("UnityEditor.UIElements.UIElementsEditorUtility")
@@ -31,6 +43,7 @@ namespace SuperDarkEditor
 
         public static IEnumerable<StyleSheet> LoadUIToolkitDarkSheets(string excludedPackageRoot)
         {
+            var catalogSheets = LoadBuiltInCatalogSheets().ToHashSet();
             var builtInSheets = AssetDatabase.LoadAllAssetsAtPath(EditorResourcesPath).OfType<StyleSheet>();
             var packageSheets = AssetDatabase.FindAssets("t:StyleSheet", new[] { PackagesFolder })
                 .Select(AssetDatabase.GUIDToAssetPath)
@@ -40,7 +53,7 @@ namespace SuperDarkEditor
             return builtInSheets
                 .Concat(packageSheets)
                 .Append(LoadUIToolkitDarkTheme())
-                .Where(sheet => sheet != null && !IsSkippedSheet(sheet))
+                .Where(sheet => sheet != null && !catalogSheets.Contains(sheet) && !IsSkippedSheet(sheet))
                 .Distinct();
         }
 
