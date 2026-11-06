@@ -1,0 +1,7 @@
+{
+  "name": "SuperDarkEditor",
+  "rootNamespace": "SuperDarkEditor",
+  "includePlatforms": [
+    "Editor"
+  ]
+}
