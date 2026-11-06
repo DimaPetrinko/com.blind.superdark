@@ -1,0 +1,16 @@
+PropertyNodeView > #disabledOverlay {
+    background-color: rgba(15, 15, 19, 0);
+}
+
+PropertyNodeView.disabled #disabledOverlay {
+    background-color: rgba(15, 15, 19, 0.5);
+}
+
+PropertyNodeView.disabled:hover #disabledOverlay {
+    background-color: rgba(15, 15, 19, 0.25);
+}
+
+PropertyNodeView.disabled:checked #disabledOverlay {
+    background-color: rgba(15, 15, 19, 0.25);
+}
+

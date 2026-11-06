@@ -1,0 +1,164 @@
+#eventsDebugger .toolbar #suspend {
+    background-color: rgb(33, 33, 37);
+}
+
+#eventsDebugger .toolbar #clear-logs {
+    background-color: rgb(33, 33, 37);
+}
+
+#eventsDebugger #eventsLogContainer {
+    background-color: rgb(16, 16, 20);
+}
+
+#eventsDebugger #eventsLogContainer #eventInfoContainer {
+    border-top-color: rgb(16, 16, 20);
+    border-bottom-color: rgb(16, 16, 20);
+    background-color: rgb(33, 33, 37);
+}
+
+#eventsDebugger #eventsLogContainer eventPlaybackContainer {
+    background-color: rgb(33, 33, 37);
+}
+
+#eventsDebugger #eventsLogContainer #eventPlaybackContainer .maxLogLinesContainer {
+    background-color: rgb(33, 33, 37);
+}
+
+#eventsDebugger #eventsLogContainer #eventPlaybackContainer #eventReplayToolbar {
+    background-color: rgb(33, 33, 37);
+}
+
+#eventsDebugger #eventsLogContainer #eventPlaybackContainer #eventReplayToolbar #decrease-playback-speed {
+    background-color: rgb(33, 33, 37);
+    border-color: rgb(16, 16, 20);
+}
+
+#eventsDebugger #eventsLogContainer #eventPlaybackContainer #eventReplayToolbar #increase-playback-speed {
+    background-color: rgb(33, 33, 37);
+    border-color: rgb(16, 16, 20);
+}
+
+#eventsDebugger #eventsLogContainer #eventPlaybackContainer #eventFileToolbar #save-replay {
+    background-color: rgb(33, 33, 37);
+    border-color: rgb(16, 16, 20);
+}
+
+#eventsDebugger #eventsLogContainer #eventPlaybackContainer #eventFileToolbar #load-replay {
+    background-color: rgb(33, 33, 37);
+    border-color: rgb(16, 16, 20);
+}
+
+#eventsDebugger #eventsLogContainer #eventPlaybackContainer .toolbar-setting-menu:hover {
+    background-color: rgb(38, 38, 42);
+}
+
+#eventTimeline {
+    background-color: rgb(33, 33, 37);
+}
+
+#eventsDebugger #eventsHistogramTitleHeader {
+    background-color: rgb(33, 33, 37);
+}
+
+#eventsDebugger #eventsRegistrationSearchContainer {
+    background-color: rgb(33, 33, 37);
+}
+
+#eventsDebugger #eventsLogContainer #eventCallbacksContainer {
+    background-color: rgb(33, 33, 37);
+}
+
+#eventsDebugger #eventsTitle {
+    background-color: rgb(39, 39, 43);
+}
+
+#eventsDebugger #eventCallbacksTitle {
+    background-color: rgb(39, 39, 43);
+}
+
+#eventsDebugger #eventsLogContainer #eventPropagationPathsContainer #eventPropagationPathsTitle {
+    background-color: rgb(39, 39, 43);
+}
+
+#eventsDebugger #eventsLogContainer #eventbaseInfoContainer #eventbaseInfoTitle {
+    background-color: rgb(39, 39, 43);
+}
+
+#eventsDebugger #eventsRegistrationsContainer #eventsRegistrationTitleContainer {
+    background-color: rgb(39, 39, 43);
+}
+
+#eventsDebugger #eventsHistogramContainer #eventsHistogramTitleContainer {
+    background-color: rgb(39, 39, 43);
+}
+
+#eventsDebugger #eventsRightSideContainer {
+    background-color: rgb(16, 16, 20);
+}
+
+#eventsDebugger #eventsRegistrationsContainer {
+    background-color: rgb(16, 16, 20);
+}
+
+#eventsDebugger #eventsHistogramContainer {
+    background-color: rgb(16, 16, 20);
+}
+
+#eventsDebugger #eventCallbacksContainer #scrollViewContainer {
+    background-color: rgb(16, 16, 20);
+}
+
+#eventsDebugger #eventsRightSideContainer #scrollViewContainer {
+    background-color: rgb(16, 16, 20);
+}
+
+#eventsDebugger #eventPropagationPathsContainer #scrollViewContainer {
+    background-color: rgb(16, 16, 20);
+}
+
+#eventsDebugger #eventbaseInfoContainer #scrollViewContainer {
+    background-color: rgb(16, 16, 20);
+}
+
+#eventsRegistrationTotals {
+    background-color: rgb(33, 33, 37);
+}
+
+#eventsDebugger #eventsLogContainer #eventTimeline #eventTimelineTitle {
+    background-color: rgb(50, 50, 54);
+}
+
+#eventsDebugger #eventsRegistrationsContainer #eventsRegistrationMessage {
+    background-color: rgb(27, 27, 31);
+}
+
+#eventsDebugger #eventsRegistrationsContainer .callback-list-element.visual-element {
+    border-color: rgb(50, 50, 54);
+    background-color: rgb(33, 33, 37);
+}
+
+#eventsDebugger #eventsRegistrationsContainer .callback-list-element.callback.highlighted {
+    background-color: rgb(50, 50, 54);
+}
+
+.log-line-header {
+    background-color: rgb(33, 33, 37);
+}
+
+#eventsHistogramDuration {
+    background-color: rgb(23, 23, 27);
+}
+
+#eventsHistogramDurationType .unity-enum-field__input {
+    background-color: rgb(33, 33, 37);
+}
+
+#eventReplayToolbar #playback-speed-dropdown .unity-popup-field__input {
+    background-color: rgb(33, 33, 37);
+}
+
+.event-debugger-filter__list-view {
+    background-color: rgb(27, 27, 31);
+    border-color: rgb(49, 49, 53);
+}
+

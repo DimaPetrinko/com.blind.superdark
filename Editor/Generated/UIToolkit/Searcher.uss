@@ -1,0 +1,26 @@
+#windowMainVisualContainer {
+    background-color: rgb(18, 18, 22);
+}
+
+#windowSearchBoxVisualContainer {
+    background-color: rgb(33, 33, 37);
+    border-color: rgb(24, 24, 28);
+}
+
+#windowSelectionVisualContainer {
+    background-color: rgb(27, 27, 31);
+}
+
+.unity-list-view {
+    background-color: rgb(27, 27, 31);
+}
+
+.unity-list-view > * > #smartSearchItem:hover * {
+    background-color: rgb(32, 32, 36);
+}
+
+#windowDetailsVisualContainer {
+    background-color: rgb(27, 27, 31);
+    border-color: rgb(18, 18, 22);
+}
+

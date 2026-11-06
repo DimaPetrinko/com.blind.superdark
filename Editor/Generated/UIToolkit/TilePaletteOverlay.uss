@@ -1,0 +1,4 @@
+.unity-grid-view__item .unity-image {
+    background-color: rgb(40, 40, 44);
+}
+

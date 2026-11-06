@@ -1,0 +1,17 @@
+.overlay-menu {
+    --unity-overlay-menu-item-background-hover: rgb(33, 33, 37);
+}
+
+.unity-overlay-canvas {
+    --unity-overlay-menu-item-background-hover: rgb(33, 33, 37);
+}
+
+.editor-tools-dropdown {
+    --unity-overlay-menu-item-background-hover: rgb(33, 33, 37);
+}
+
+.unity-overlay-container {
+    --unity-overlay-toolbar-vertical-color: rgb(24, 24, 28);
+    --unity-overlay-toolbar-horizontal-color: rgb(29, 29, 33);
+}
+

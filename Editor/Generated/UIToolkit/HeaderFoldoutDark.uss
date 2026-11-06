@@ -1,0 +1,8 @@
+.header-foldout {
+    border-color: rgb(14, 14, 18);
+}
+
+.unity-foldout__toggle {
+    background-color: rgb(24, 24, 28);
+}
+

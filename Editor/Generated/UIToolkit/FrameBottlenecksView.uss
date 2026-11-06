@@ -1,0 +1,8 @@
+.frame-bottlenecks-view__dark:root {
+    --activity-background-color: rgb(27, 27, 31);
+}
+
+.frame-bottlenecks-view__light:root {
+    --frame-bottlenecks-view__chart-bar__fill-color: rgb(54, 54, 58);
+}
+

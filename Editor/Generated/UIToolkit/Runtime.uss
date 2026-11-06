@@ -1,0 +1,17 @@
+.unity-theme-env-variables {
+    --theme-window-border-color: rgb(50, 50, 54);
+    --theme-radio-button-checkmark-background-color: rgb(41, 41, 45);
+    --theme-base-field-label-mixed-values-color: rgba(3, 3, 7, 0.5);
+}
+
+:root {
+    --unity-colors-box-border: rgb(41, 41, 45);
+}
+
+.unity-internal-vars {
+    --unity-theme-colors-base-4: rgb(49, 49, 53);
+    --unity-theme-colors-base-6: rgb(24, 24, 28);
+    --unity-theme-colors-foreground-disabled-1: rgb(21, 21, 25);
+    --unity-theme-colors-foreground-disabled-2: rgb(43, 43, 47);
+}
+

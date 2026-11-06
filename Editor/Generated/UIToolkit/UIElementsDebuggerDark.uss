@@ -1,0 +1,12 @@
+.unity-treeview-searchbar-button {
+    background-color: rgb(24, 24, 28);
+}
+
+.unity-treeview-searchbar-button:hover {
+    background-color: rgb(34, 34, 38);
+}
+
+.unity-treeview-searchbar-button:hover:active {
+    background-color: rgb(49, 49, 53);
+}
+

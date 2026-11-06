@@ -1,0 +1,7 @@
+.header-search-box {
+    border-left-color: rgb(10, 10, 14);
+    border-right-color: rgb(10, 10, 14);
+    border-top-color: rgb(10, 10, 14);
+    border-bottom-color: rgb(10, 10, 14);
+}
+

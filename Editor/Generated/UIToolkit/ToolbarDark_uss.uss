@@ -1,0 +1,249 @@
+:root {
+    --unity-colors-play_mode-background: rgb(47, 47, 51);
+    --unity-colors-default-background: rgb(19, 19, 23);
+    --unity-colors-default-border: rgb(16, 16, 20);
+    --unity-colors-highlight-background-hover-lighter: rgb(46, 46, 50);
+    --unity-colors-list_view_item-background-hover: rgb(23, 23, 27);
+    --unity-colors-highlight-background-inactive: rgb(37, 37, 41);
+    --unity-colors-alternated_rows-background: rgb(30, 30, 34);
+    --unity-colors-app_toolbar-background: rgb(9, 9, 13);
+    --unity-colors-app_toolbar_button-background: rgb(9, 9, 13);
+    --unity-colors-app_toolbar_button-background-hover: rgb(29, 29, 33);
+    --unity-colors-app_toolbar_button-background-checked: rgb(49, 49, 53);
+    --unity-colors-app_toolbar_button-background-pressed: rgb(49, 49, 53);
+    --unity-colors-app_toolbar_button-border: rgb(11, 11, 15);
+    --unity-colors-app_toolbar_button-border_accent: rgb(16, 16, 20);
+    --unity-colors-box-background: rgba(19, 19, 23, 0.3);
+    --unity-colors-button-background: rgb(43, 43, 47);
+    --unity-colors-button-background-focus: rgb(54, 54, 58);
+    --unity-colors-button-background-hover: rgb(50, 50, 54);
+    --unity-colors-button-border: rgb(23, 23, 27);
+    --unity-colors-button-border-pressed: rgb(5, 5, 9);
+    --unity-colors-button-border_accent: rgb(17, 17, 21);
+    --unity-colors-dropdown-background: rgb(39, 39, 43);
+    --unity-colors-dropdown-background-hover: rgb(43, 43, 47);
+    --unity-colors-dropdown-border: rgb(23, 23, 27);
+    --unity-colors-dropdown-border_accent: rgb(17, 17, 21);
+    --unity-colors-headerbar-background: rgb(29, 29, 33);
+    --unity-colors-headerbar_column-background: rgb(29, 29, 33);
+    --unity-colors-headerbar_column-background-pressed: rgb(39, 39, 43);
+    --unity-colors-headerbar_column-background-hover: rgb(34, 34, 38);
+    --unity-colors-helpbox-background: rgba(47, 47, 51, 0.2);
+    --unity-colors-helpbox-border: rgb(16, 16, 20);
+    --unity-colors-input_field-background: rgb(20, 20, 24);
+    --unity-colors-input_field-border: rgb(15, 15, 19);
+    --unity-colors-input_field-border-hover: rgb(49, 49, 53);
+    --unity-colors-input_field-border_accent: rgb(5, 5, 9);
+    --unity-colors-object_field-background: rgb(19, 19, 23);
+    --unity-colors-object_field-border: rgb(15, 15, 19);
+    --unity-colors-object_field-border-hover: rgb(49, 49, 53);
+    --unity-colors-object_field_button-background: rgb(26, 26, 30);
+    --unity-colors-object_field_button-background-hover: rgb(37, 37, 41);
+    --unity-colors-popup-background: rgb(23, 23, 27);
+    --unity-colors-preview-background: rgb(23, 23, 27);
+    --unity-colors-preview-border: rgb(16, 16, 20);
+    --unity-colors-scrollbar_thumb-background: rgb(46, 46, 50);
+    --unity-colors-scrollbar_thumb-background-hover: rgb(51, 51, 55);
+    --unity-colors-scrollbar_thumb-border: rgb(24, 24, 28);
+    --unity-colors-scrollbar_thumb-border-hover: rgb(51, 51, 55);
+    --unity-colors-scrollbar_button-background-hover: rgb(35, 35, 39);
+    --unity-colors-progress-background: rgb(23, 23, 27);
+    --unity-colors-slider_groove-background: rgb(46, 46, 50);
+    --unity-colors-slider_groove-background-disabled: rgb(42, 42, 46);
+    --unity-colors-slider_fill-background-disabled: rgb(50, 50, 54);
+    --unity-colors-slider_thumb-background-disabled: rgb(50, 50, 54);
+    --unity-colors-slider_thumb-border-disabled: rgb(50, 50, 54);
+    --unity-colors-min-max-slider_groove-background: rgb(46, 46, 50);
+    --unity-colors-min-max-slider_dragger-border-color: rgb(23, 23, 27);
+    --unity-colors-tab-background: rgb(25, 25, 29);
+    --unity-colors-tab-background-checked: rgb(29, 29, 33);
+    --unity-colors-tab-background-hover: rgb(23, 23, 27);
+    --unity-colors-tabview_tab-background: rgb(21, 21, 25);
+    --unity-colors-tabview_tab-background-hover: rgb(23, 23, 27);
+    --unity-colors-toolbar-background: rgb(29, 29, 33);
+    --unity-colors-toolbar-border: rgb(16, 16, 20);
+    --unity-colors-toolbar_button-background: rgb(29, 29, 33);
+    --unity-colors-toolbar_button-background-hover: rgb(34, 34, 38);
+    --unity-colors-toolbar_button-background-checked: rgb(39, 39, 43);
+    --unity-colors-toolbar_button-background-focus: rgb(34, 34, 38);
+    --unity-colors-toolbar_button-border: rgb(16, 16, 20);
+    --unity-colors-window-background: rgb(27, 27, 31);
+    --unity-colors-window-border: rgb(17, 17, 21);
+    --unity-colors-inspector_titlebar-background: rgb(30, 30, 34);
+    --unity-colors-inspector_titlebar-background-hover: rgb(34, 34, 38);
+    --unity-colors-inspector_titlebar-border: rgb(12, 12, 16);
+    --unity-colors-inspector_titlebar-border_accent: rgb(23, 23, 27);
+    --unity-colors-tooltip-background: rgb(26, 26, 30);
+    --unity-colors-tooltip-border: rgb(11, 11, 15);
+    --unity-theme-background-color-1: rgb(43, 43, 47);
+    --unity-theme-background-color-2: rgb(50, 50, 54);
+    --unity-theme-background-color-3: rgb(25, 25, 29);
+    --unity-theme-background-color-4: rgb(54, 54, 58);
+    --unity-theme-background-color-5: rgb(29, 29, 33);
+    --unity-theme-background-color-6: rgb(34, 34, 38);
+    --unity-theme-background-color-7: rgb(39, 39, 43);
+    --unity-theme-background-color-8: rgb(39, 39, 43);
+    --unity-theme-background-color-9: rgb(23, 23, 27);
+    --unity-theme-background-color-10: rgb(25, 25, 29);
+    --unity-theme-background-color-11: rgb(46, 46, 50);
+    --unity-theme-background-color-14: rgb(42, 42, 46);
+    --unity-theme-background-color-15: rgb(50, 50, 54);
+    --unity-theme-background-color-17: rgb(27, 27, 31);
+    --unity-theme-background-color-52: rgb(37, 37, 41);
+    --unity-theme-background-color-53: rgb(20, 20, 24);
+    --unity-theme-background-color-54: rgb(19, 19, 23);
+    --unity-theme-background-color-55: rgb(26, 26, 30);
+    --unity-theme-background-color-56: rgb(37, 37, 41);
+    --unity-theme-background-color-58: rgb(46, 46, 50);
+    --unity-theme-background-color-59: rgb(35, 35, 39);
+    --unity-theme-background-color-60: rgb(51, 51, 55);
+    --unity-theme-background-color-80: rgb(30, 30, 34);
+    --unity-theme-background-color-81: rgba(19, 19, 23, 0.3);
+    --unity-theme-background-color-82: rgb(11, 11, 15);
+    --unity-theme-background-color-83: rgb(49, 49, 53);
+    --unity-theme-background-color-84: rgb(32, 32, 36);
+    --unity-theme-background-color-85: rgb(23, 23, 27);
+    --unity-theme-background-color-86: rgba(47, 47, 51, 0.2);
+    --unity-theme-background-color-87: rgb(47, 47, 51);
+    --unity-theme-background-color-88: rgb(30, 30, 34);
+    --unity-theme-background-color-89: rgb(34, 34, 38);
+    --unity-theme-background-color-90: rgb(23, 23, 27);
+    --unity-theme-background-color-94: rgb(11, 11, 15);
+    --unity-theme-background-color-95: rgb(19, 19, 23);
+    --unity-theme-background-color-97: rgb(29, 29, 33);
+    --unity-theme-background-color-98: rgb(23, 23, 27);
+    --unity-theme-background-color-200: rgb(9, 9, 13);
+    --unity-theme-background-color-201: rgb(39, 39, 43);
+    --unity-theme-background-color-204: rgb(21, 21, 25);
+    --unity-theme-border-color-1: rgb(5, 5, 9);
+    --unity-theme-border-color-2: rgb(7, 7, 11);
+    --unity-theme-border-color-3: rgb(9, 9, 13);
+    --unity-theme-border-color-4: rgb(12, 12, 16);
+    --unity-theme-border-color-5: rgb(15, 15, 19);
+    --unity-theme-border-color-6: rgb(15, 15, 19);
+    --unity-theme-border-color-7: rgb(16, 16, 20);
+    --unity-theme-border-color-8: rgb(17, 17, 21);
+    --unity-theme-border-color-9: rgb(19, 19, 23);
+    --unity-theme-border-color-10: rgb(23, 23, 27);
+    --unity-theme-border-color-11: rgb(24, 24, 28);
+    --unity-theme-border-color-12: rgb(24, 24, 28);
+    --unity-theme-border-color-14: rgb(48, 48, 52);
+    --unity-theme-border-color-15: rgb(49, 49, 53);
+    --unity-theme-border-color-16: rgb(50, 50, 54);
+    --unity-theme-border-color-17: rgb(51, 51, 55);
+    --unity-theme-border-color-18: rgb(5, 5, 9);
+    --unity-theme-border-color-20: rgb(16, 16, 20);
+    --unity-theme-border-color-21: rgb(11, 11, 15);
+}
+
+.unity-theme-env-variables {
+    --theme-window-border-color: rgb(17, 17, 21);
+    --theme-window-background-color: rgba(27, 27, 31, 0.95);
+    --theme-input-background-color: rgb(20, 20, 24);
+    --theme-input-border-color: rgb(15, 15, 19);
+    --theme-input-accent-border-color: rgb(5, 5, 9);
+    --theme-input-border-hover-color: rgb(49, 49, 53);
+    --theme-input-border-checked-color: rgb(49, 49, 53);
+    --theme-object-field-background-color: rgb(19, 19, 23);
+    --theme-object-field-border-color: rgb(15, 15, 19);
+    --theme-object-field-border-hover-color: rgb(49, 49, 53);
+    --theme-object-field-border-checked-color: rgb(49, 49, 53);
+    --theme-object-field-button-background-color: rgb(26, 26, 30);
+    --theme-object-field-button-background-color-hover: rgb(37, 37, 41);
+    --theme-button-background-color: rgb(43, 43, 47);
+    --theme-button-background-color-hover: rgb(50, 50, 54);
+    --theme-button-border-color: rgb(23, 23, 27);
+    --theme-button-accent-border-color: rgb(17, 17, 21);
+    --theme-toolbar-background-color: rgb(29, 29, 33);
+    --theme-toolbar-button-border-color: rgb(9, 9, 13);
+    --theme-toolbar-button-border-2-color: rgb(16, 16, 20);
+    --theme-toolbar-button-background-color: rgb(29, 29, 33);
+    --theme-toolbar-button-background-color-hover: rgb(34, 34, 38);
+    --theme-toolbar-button-background-color-checked: rgb(39, 39, 43);
+    --theme-toolbar-button-background-color-focus: rgb(34, 34, 38);
+    --theme-app-toolbar-button-border-color: rgb(11, 11, 15);
+    --theme-dropdown-border-color: rgb(23, 23, 27);
+    --theme-dropdown-accent-border-color: rgb(17, 17, 21);
+    --theme-dropdown-background-color: rgb(39, 39, 43);
+    --theme-dropdown-background-color-hover: rgb(43, 43, 47);
+    --theme-scrollbar-thumb-background-color: rgb(46, 46, 50);
+    --theme-scrollbar-thumb-border-color: rgb(24, 24, 28);
+    --theme-scrollbar-thumb-background-color-hover: rgb(51, 51, 55);
+    --theme-scrollbar-button-background-color-hover: rgb(35, 35, 39);
+    --theme-slider-background-color: rgb(46, 46, 50);
+    --theme-slider-background-color-disabled: rgb(42, 42, 46);
+    --theme-slider-fill-background-color-disabled: rgb(50, 50, 54);
+    --theme-slider-thumb-background-color-disabled: rgb(50, 50, 54);
+    --theme-slider-thumb-border-color-disabled: rgb(50, 50, 54);
+    --theme-min-max-slider-tracker-background-color: rgb(46, 46, 50);
+    --theme-min-max-slider-dragger-border-color: rgb(23, 23, 27);
+    --theme-box-background-color: rgba(19, 19, 23, 0.3);
+    --theme-help-box-background-color: rgb(30, 30, 34);
+    --theme-help-box-border-color: rgb(12, 12, 16);
+    --theme-view-background-color: rgb(27, 27, 31);
+    --theme-line-background-color-hover: rgb(23, 23, 27);
+    --theme-line-background-color-drop-hover: rgb(32, 32, 36);
+    --theme-background-color-alternate: rgb(30, 30, 34);
+    --theme-line-selection-background-color: rgb(37, 37, 41);
+    --progress-bar-back-background-color: rgb(23, 23, 27);
+    --progress-bar-back-border-color: rgb(17, 17, 21);
+    --theme-tab-background: rgb(25, 25, 29);
+    --theme-header-bar-background-color: rgb(31, 31, 35);
+    --theme-header-bar-background-color-hover: rgb(33, 33, 37);
+    --theme-header-bar-border-color: rgb(19, 19, 23);
+    --theme-experimental-tag-background-color: rgb(14, 15, 15);
+    --theme-popup-border-color: rgb(48, 48, 52);
+}
+
+.unity-toolbar {
+    background-color: rgb(29, 29, 33);
+    border-color: rgb(16, 16, 20);
+}
+
+.unity-toolbar-toggle {
+    background-color: rgb(29, 29, 33);
+    border-color: rgb(16, 16, 20);
+}
+
+.unity-toolbar-toggle:hover:enabled {
+    background-color: rgb(34, 34, 38);
+}
+
+.unity-toolbar-toggle:active:enabled {
+    background-color: rgb(39, 39, 43);
+}
+
+.unity-toolbar-toggle:checked {
+    background-color: rgb(39, 39, 43);
+}
+
+.unity-toolbar-button {
+    background-color: rgb(29, 29, 33);
+    border-color: rgb(16, 16, 20);
+}
+
+.unity-toolbar-button:hover:enabled {
+    background-color: rgb(34, 34, 38);
+}
+
+.unity-toolbar-button:active:enabled {
+    background-color: rgb(39, 39, 43);
+}
+
+.unity-toolbar-menu {
+    background-color: rgb(29, 29, 33);
+    border-color: rgb(16, 16, 20);
+}
+
+.unity-toolbar-menu:hover:enabled {
+    background-color: rgb(34, 34, 38);
+}
+
+.unity-toolbar-menu:active:enabled {
+    background-color: rgb(39, 39, 43);
+}
+
+.unity-gradient-field__border {
+    border-color: rgb(13, 13, 17);
+}
+

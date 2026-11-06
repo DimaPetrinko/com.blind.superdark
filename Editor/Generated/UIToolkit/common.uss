@@ -1,0 +1,16 @@
+.quick-search-tips-section {
+    border: 0px solid rgb(23, 23, 27);
+}
+
+.secondary-button {
+    background-color: rgba(49, 49, 53, 0.3);
+}
+
+.secondary-button:hover {
+    background-color: rgba(49, 49, 53, 0.5);
+}
+
+.secondary-button:active {
+    background-color: rgba(39, 39, 43, 0.5);
+}
+

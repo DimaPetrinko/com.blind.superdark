@@ -1,0 +1,4 @@
+.range-bottlenecks-view__dark:root {
+    --activity-background-color: rgb(23, 23, 27);
+}
+

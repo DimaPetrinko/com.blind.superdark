@@ -1,0 +1,12 @@
+.node {
+    background-color: rgb(30, 30, 34);
+}
+
+#node-border {
+    border-color: rgb(11, 11, 15);
+}
+
+#title {
+    background-color: rgba(30, 30, 34, 0);
+}
+

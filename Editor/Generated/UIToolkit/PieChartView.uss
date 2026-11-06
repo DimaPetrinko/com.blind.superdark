@@ -1,0 +1,5 @@
+.pie-chart-view__dark:root {
+    --activity-background-color: rgb(23, 23, 27);
+    --no-data-background-color: rgb(19, 19, 23);
+}
+

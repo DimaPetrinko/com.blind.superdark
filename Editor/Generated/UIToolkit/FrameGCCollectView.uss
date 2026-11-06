@@ -1,0 +1,4 @@
+.frame-gc-collect-view__dark:root {
+    --activity-background-color: rgb(27, 27, 31);
+}
+

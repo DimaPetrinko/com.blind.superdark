@@ -1,0 +1,9 @@
+.unity-modal-popup__window {
+    background-color: rgb(27, 27, 31);
+    border-color: rgb(22, 22, 26);
+}
+
+.unity-modal-popup__title-bar {
+    background-color: rgb(17, 17, 21);
+}
+

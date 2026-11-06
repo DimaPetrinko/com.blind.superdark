@@ -1,0 +1,7 @@
+:root {
+    --selector-background-color: rgb(29, 29, 33);
+    --selector-border-color: rgb(49, 49, 53);
+    --selector-indicator-background-color: rgb(34, 34, 38);
+    --selector-preset-point-border-color-hover: rgb(50, 50, 54);
+}
+

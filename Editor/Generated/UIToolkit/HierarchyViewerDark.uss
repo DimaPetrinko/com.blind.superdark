@@ -1,0 +1,6 @@
+:root {
+    --colors-search_bar_button-background: rgb(24, 24, 28);
+    --colors-search_bar_button-background-hover: rgb(34, 34, 38);
+    --colors-search_bar_button-background-hover_pressed: rgb(49, 49, 53);
+}
+

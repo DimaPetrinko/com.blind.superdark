@@ -1,0 +1,8 @@
+.unity-position-anchors {
+    border-color: rgba(54, 54, 58, 0);
+}
+
+.unity-position-anchors #square-hover-rect {
+    border-color: rgba(54, 54, 58, 0);
+}
+

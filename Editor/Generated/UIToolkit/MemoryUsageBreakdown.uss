@@ -1,0 +1,33 @@
+.legend__color-box {
+    background-color: rgb(14, 14, 18);
+}
+
+.legend__row {
+    border-left-color: rgb(31, 31, 35);
+    border-right-color: rgb(31, 31, 35);
+    border-top-color: rgb(31, 31, 35);
+    border-bottom-color: rgb(31, 31, 35);
+}
+
+.legend__list {
+    border-left-color: rgb(48, 48, 52);
+    border-right-color: rgb(48, 48, 52);
+    border-top-color: rgb(48, 48, 52);
+    border-bottom-color: rgb(48, 48, 52);
+}
+
+.legend__row-item {
+    border-left-color: rgb(31, 31, 35);
+    border-right-color: rgb(31, 31, 35);
+    border-top-color: rgb(31, 31, 35);
+    border-bottom-color: rgb(31, 31, 35);
+}
+
+.background-color__memory-usage-bar__background {
+    background-color: rgb(14, 14, 18);
+}
+
+.background-color__memory-summary-category__unknown {
+    background-color: rgb(14, 14, 18);
+}
+

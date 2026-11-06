@@ -1,0 +1,10 @@
+.unity-iap-picker {
+    --color-title: rgb(12, 12, 16);
+}
+
+.unity-iap-picker--dark {
+    --color-sheet: rgb(14, 14, 16);
+    --color-native-bg: rgb(22, 22, 25);
+    --color-generic-bg: rgb(30, 30, 33);
+}
+

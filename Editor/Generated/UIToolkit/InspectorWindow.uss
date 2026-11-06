@@ -1,0 +1,8 @@
+.unity-inspector-no-multi-edit-warning {
+    border-color: rgb(43, 43, 47);
+}
+
+.unity-inspector-boxed-label {
+    border-color: rgb(17, 17, 21);
+}
+

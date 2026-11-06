@@ -3,6 +3,7 @@ using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
 using UnityEditor;
+using UnityEditor.PackageManager;
 using UnityEngine;
 using UnityEngine.UIElements;
 using PackageInfo = UnityEditor.PackageManager.PackageInfo;
@@ -33,7 +34,7 @@ namespace SuperDarkEditor
 
         private static void RegenerateIfStale()
         {
-            if (!EditorGUIUtility.isProSkin)
+            if (!EditorGUIUtility.isProSkin || !IsPackageWritable())
                 return;
 
             try
@@ -51,6 +52,12 @@ namespace SuperDarkEditor
             {
                 Debug.LogWarning($"Super Dark Editor: regenerating overrides failed, colors stay as they were.\n{exception}");
             }
+        }
+
+        private static bool IsPackageWritable()
+        {
+            var source = PackageInfo.FindForAssembly(typeof(OverrideRegeneration).Assembly).source;
+            return source == PackageSource.Local || source == PackageSource.Embedded;
         }
 
         private static bool AreOverridesUpToDate(string fingerprint) =>

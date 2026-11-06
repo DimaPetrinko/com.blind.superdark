@@ -1,0 +1,4 @@
+.tab-toolbar .unity-toolbar-button:checked {
+    border-bottom-color: rgb(27, 27, 31);
+}
+

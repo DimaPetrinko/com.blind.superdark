@@ -1,0 +1,9 @@
+:root {
+    --main-background-color: rgb(23, 23, 27);
+    --side-panel-background-color: rgb(27, 27, 31);
+    --side-panel-item-border-color: rgb(50, 50, 54);
+    --load-action-border-color: rgb(41, 41, 45);
+    --store-action-border-color: rgb(41, 41, 45);
+    --grid-line-color: rgb(33, 33, 37);
+}
+

@@ -1,0 +1,24 @@
+#HistoryContainer {
+    background-color: rgb(19, 19, 23);
+}
+
+.obtainedRevision #HistoryDetail {
+    background-color: rgb(24, 24, 28);
+}
+
+.absentRevision #HistoryDetail {
+    background-color: rgb(43, 43, 47);
+}
+
+#StatusView {
+    background-color: rgb(19, 19, 23);
+}
+
+CollabHistoryDropDown {
+    border-color: rgb(19, 19, 23);
+}
+
+CollabHistoryDropDownItem {
+    border-color: rgb(19, 19, 23);
+}
+

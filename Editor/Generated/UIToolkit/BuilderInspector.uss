@@ -1,0 +1,4 @@
+.unity-foldout-field__mixed-value-line {
+    background-color: rgb(23, 23, 27);
+}
+

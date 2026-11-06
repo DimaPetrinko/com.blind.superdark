@@ -1,0 +1,4 @@
+.BreadcrumbToolbar {
+    border-bottom-color: rgb(21, 21, 25);
+}
+

@@ -1,0 +1,4 @@
+#PreviewPackageInUse .unity-toolbar-button-preview-packages-in-use:hover {
+    background-color: rgb(6, 6, 10);
+}
+

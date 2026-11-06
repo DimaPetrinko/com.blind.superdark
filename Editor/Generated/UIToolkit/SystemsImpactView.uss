@@ -1,0 +1,4 @@
+.systems-impact-view__dark:root {
+    --activity-background-color: rgb(23, 23, 27);
+}
+

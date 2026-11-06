@@ -1,0 +1,9 @@
+#divider {
+    border-color: rgba(16, 16, 20, 0.8);
+}
+
+.Dark #divider {
+    background-color: rgba(41, 41, 45, 0.8);
+    border-color: rgba(16, 16, 20, 0.8);
+}
+

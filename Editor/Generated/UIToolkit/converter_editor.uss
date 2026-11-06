@@ -1,0 +1,4 @@
+.dark :hover {
+    background-color: rgb(23, 23, 27);
+}
+

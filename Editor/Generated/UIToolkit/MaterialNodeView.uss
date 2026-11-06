@@ -1,0 +1,40 @@
+MaterialNodeView #previewFiller {
+    background-color: rgba(30, 30, 34, 0.8);
+}
+
+MaterialNodeView #controls {
+    background-color: rgba(30, 30, 34, 0.8);
+}
+
+MaterialNodeView #previewFiller.collapsed > #expand:hover {
+    background-color: rgb(20, 20, 24);
+}
+
+MaterialNodeView > #settings-container {
+    background-color: rgb(30, 30, 34);
+}
+
+#settings-button:hover > #icon {
+    background-color: rgb(20, 20, 24);
+}
+
+#settings-button.clicked > #icon {
+    background-color: rgb(20, 20, 24);
+}
+
+MaterialNodeView > #disabledOverlay {
+    background-color: rgba(15, 15, 19, 0);
+}
+
+MaterialNodeView.disabled #disabledOverlay {
+    background-color: rgba(15, 15, 19, 0.5);
+}
+
+MaterialNodeView.disabled:hover #disabledOverlay {
+    background-color: rgba(15, 15, 19, 0.25);
+}
+
+MaterialNodeView.disabled:checked #disabledOverlay {
+    background-color: rgba(15, 15, 19, 0.25);
+}
+

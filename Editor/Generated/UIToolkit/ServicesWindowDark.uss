@@ -1,0 +1,24 @@
+.entry {
+    border-color: rgb(19, 19, 23);
+}
+
+.uninstalled-entry {
+    border-color: rgb(19, 19, 23);
+}
+
+.entry:hover {
+    background-color: rgb(34, 34, 38);
+}
+
+#Footer {
+    background-color: rgb(19, 19, 23);
+}
+
+#unity-content-viewport {
+    background-color: rgb(19, 19, 23);
+}
+
+#unity-content-container {
+    background-color: rgba(27, 27, 31, 0.95);
+}
+

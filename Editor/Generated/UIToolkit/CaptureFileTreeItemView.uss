@@ -1,0 +1,9 @@
+.profiler-captures__dark:root {
+    --preview-image-background-color: rgb(19, 19, 23);
+    --bottlenecks-background-color: rgb(16, 16, 20);
+}
+
+#profiler-capture-file__bar {
+    background-color: rgb(16, 16, 20);
+}
+

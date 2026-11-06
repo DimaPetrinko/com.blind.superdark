@@ -1,0 +1,21 @@
+.unity-snippet-code__code_outer_container {
+    border-color: rgb(43, 43, 47);
+    background-color: rgb(17, 17, 21);
+}
+
+.unity-base-text-field .unity-snippet-code__input {
+    background-color: rgb(17, 17, 21);
+}
+
+.unity-base-text-field .unity-snippet-code__input:focus {
+    background-color: rgb(17, 17, 21);
+}
+
+.unity-samples-explorer__demo-container {
+    border-color: rgb(43, 43, 47);
+}
+
+#unity-debugger-splitter-dragline-anchor {
+    background-color: rgb(43, 43, 47);
+}
+

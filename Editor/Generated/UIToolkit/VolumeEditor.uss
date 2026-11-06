@@ -1,0 +1,4 @@
+.volume-profile-header__container {
+    border-color: rgb(14, 14, 18);
+}
+

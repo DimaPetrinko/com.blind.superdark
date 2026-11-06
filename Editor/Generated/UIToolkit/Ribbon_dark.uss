@@ -1,0 +1,9 @@
+.ribbon__container {
+    border-top-color: rgb(19, 19, 23);
+    border-bottom-color: rgb(19, 19, 23);
+}
+
+.ribbon__button {
+    border-bottom-color: rgb(19, 19, 23);
+}
+

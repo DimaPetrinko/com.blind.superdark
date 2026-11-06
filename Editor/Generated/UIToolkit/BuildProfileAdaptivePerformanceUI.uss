@@ -1,0 +1,4 @@
+.border-small {
+    border-color: rgb(11, 11, 15);
+}
+

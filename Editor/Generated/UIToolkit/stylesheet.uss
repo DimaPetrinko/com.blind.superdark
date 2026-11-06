@@ -1,0 +1,8 @@
+.d_help-area {
+    background-color: rgb(31, 31, 35);
+    border-left-color: rgb(43, 43, 47);
+    border-right-color: rgb(43, 43, 47);
+    border-top-color: rgb(43, 43, 47);
+    border-bottom-color: rgb(43, 43, 47);
+}
+

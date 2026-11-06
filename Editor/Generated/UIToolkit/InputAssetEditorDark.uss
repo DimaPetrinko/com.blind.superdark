@@ -1,0 +1,6 @@
+:root {
+    --input-editor-colors-properties-foldout-border: rgb(12, 12, 16);
+    --input-editor-colors-properties-foldout-toggle-hover: rgb(34, 34, 38);
+    --input-editor-colors-properties-foldout: rgb(30, 30, 34);
+}
+

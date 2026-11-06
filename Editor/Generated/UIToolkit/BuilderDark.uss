@@ -1,0 +1,110 @@
+:root {
+    --unity_builder-colors-field_search_completer_popup-border: rgb(46, 46, 50);
+    --unity_builder-colors-field_search_completer_popup__footer-background: rgb(30, 30, 34);
+    --unity_builder-colors-field_search_completer_popup__details_view-background: rgb(20, 20, 24);
+    --unity_builder-colors-notification__background: rgb(24, 24, 28);
+}
+
+.unity-builder-pane__header {
+    background-color: rgb(17, 17, 21);
+}
+
+.unity-builder-explorer__header {
+    background-color: rgb(43, 43, 47);
+}
+
+.unity-builder-explorer__header:hover {
+    background-color: rgb(50, 50, 54);
+}
+
+.unity-builder__toolbar-setting-menu:hover {
+    background-color: rgb(38, 38, 42);
+}
+
+.unity-builder-explorer__item--hover {
+    background-color: rgb(23, 23, 27);
+}
+
+.unity-builder-viewport__viewport-wrapper {
+    background-color: rgb(15, 15, 19);
+}
+
+.unity-builder-viewport__shared-styles-and-document {
+    border-color: rgb(22, 22, 26);
+}
+
+.unity-builder-canvas__header {
+    background-color: rgb(22, 22, 26);
+}
+
+.unity-builder-canvas__container {
+    border-color: rgb(22, 22, 26);
+}
+
+.unity-builder-code-preview {
+    background-color: rgb(17, 17, 21);
+}
+
+.unity-builder-code__code_outer_container {
+    border-color: rgb(43, 43, 47);
+    background-color: rgb(17, 17, 21);
+}
+
+.unity-base-text-field .unity-builder-code__input {
+    background-color: rgb(17, 17, 21);
+}
+
+.unity-base-text-field .unity-builder-code__input:focus {
+    background-color: rgb(17, 17, 21);
+}
+
+.unity-builder-class-pill--help .unity-builder-class-pill__background:hover {
+    background-color: rgb(18, 18, 22);
+}
+
+.unity-builder-class-pill__background {
+    background-color: rgb(18, 18, 22);
+}
+
+.unity-builder-class-pill__background:hover {
+    background-color: rgb(34, 34, 38);
+}
+
+.unity-builder-class-pill__delete-button:hover {
+    background-color: rgb(34, 34, 38);
+}
+
+.unity-style-field-popup {
+    background-color: rgb(27, 27, 31);
+}
+
+.unity-builder-inspector__varinfo-tooltip {
+    background-color: rgb(30, 30, 34);
+}
+
+.unity-builder-inspector__varinfo-view {
+    background-color: rgb(20, 20, 24);
+}
+
+.unity-field-search-completer-popup {
+    background-color: rgb(24, 24, 28);
+}
+
+.unity-field-search-completer-popup #previewContainer {
+    border-color: rgb(31, 31, 35);
+}
+
+.unity-builder-code-row--alternate {
+    background-color: rgb(30, 30, 34);
+}
+
+.unity-builder-content-box {
+    background-color: rgb(30, 30, 34);
+    border-color: rgb(17, 17, 21);
+}
+
+.unity-builder-selector-preview__checkerboard-background {
+    --odd-cell-color: rgb(36, 36, 40);
+    --even-cell-color: rgb(50, 50, 54);
+}
+

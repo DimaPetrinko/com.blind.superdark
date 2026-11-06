@@ -1,0 +1,4 @@
+.profiler-view--dark:root {
+    --background-color: rgb(16, 16, 20);
+}
+

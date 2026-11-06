@@ -1,0 +1,8 @@
+.unity-builder-viewport__canvas-layer.unity-builder-canvas__container--dark {
+    background-color: rgb(27, 27, 31);
+}
+
+.unity-builder-tooltip-preview.unity-builder-canvas__container--dark {
+    background-color: rgb(27, 27, 31);
+}
+

@@ -1,0 +1,6 @@
+.box-plot-view__dark:root {
+    --graph-background-color: rgb(43, 43, 47);
+    --activity-background-color: rgb(27, 27, 31);
+    --no-data-background-color: rgb(23, 23, 27);
+}
+

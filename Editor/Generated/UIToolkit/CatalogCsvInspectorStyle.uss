@@ -1,0 +1,8 @@
+.product-header-row {
+    border-bottom-color: rgb(37, 37, 41);
+}
+
+.separator {
+    background-color: rgb(37, 37, 41);
+}
+

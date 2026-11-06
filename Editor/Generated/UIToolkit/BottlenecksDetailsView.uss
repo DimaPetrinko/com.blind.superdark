@@ -1,0 +1,4 @@
+.bottlenecks-details-view__dark:root {
+    --background-color: rgb(19, 19, 23);
+}
+

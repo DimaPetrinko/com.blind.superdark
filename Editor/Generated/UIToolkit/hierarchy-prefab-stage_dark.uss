@@ -1,0 +1,7 @@
+.hierarchy-prefab-stage__container {
+    --prefab-stage-background-color: rgb(31, 31, 35);
+    --prefab-stage-background-hover-color: rgb(35, 34, 35);
+    --prefab-stage-back-button-hover-color: rgb(52, 52, 56);
+    --prefab-stage-back-button-active-color: rgb(33, 32, 33);
+}
+

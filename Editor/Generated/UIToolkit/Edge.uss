@@ -1,0 +1,4 @@
+.edge {
+    --ghost-edge-color: rgb(41, 41, 45);
+}
+

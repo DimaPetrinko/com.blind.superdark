@@ -1,10 +1,11 @@
 # Super Dark Editor
 
-A local Unity package (`com.blind.superdark`) that darkens the
-Unity 6 dark editor theme with the same color rule. Built and verified on Unity 6000.3.16f1.
+A Unity package (`com.blind.superdark`) that darkens the Unity 6 dark editor theme.
+Generated for and verified on Unity 6000.3.16f1.
 
 Nothing is hand-written: the package reads Unity's own stylesheets and generates darkened copies of
-every dark-grey surface color it finds.
+every dark-grey surface color it finds. The generated overrides ship in the repository, so a Git
+install only reads them.
 
 ### How Unity colors its editor
 
@@ -18,7 +19,7 @@ every dark-grey surface color it finds.
 
 | Path | Purpose |
 |---|---|
-| `Editor/OverrideRegeneration.cs` | On editor load, compares a fingerprint (generator version, Unity version, installed packages) stored in the project's `Library/SuperDarkEditor/`. When it changed, regenerates all overrides and refreshes. |
+| `Editor/OverrideRegeneration.cs` | Runs only when the package is writable (`file:` or embedded install). On editor load, compares a fingerprint (generator version, Unity version, installed packages) stored in the project's `Library/SuperDarkEditor/`. When it changed, regenerates all overrides and refreshes. |
 | `Editor/UnityThemeSources.cs` | Access to Unity internals (via reflection): built-in sheets, catalog sources, USS export rule by rule. |
 | `Editor/DarkOverrideBuilder.cs` | Picks surface color properties (`background`, `border`, `separator`, `hover`, `selected`, custom `--*color*`; never `text`/`font`/`tint`) and darkens their values. |
 | `Editor/GreyDarkening.cs` | The color rule. |
@@ -27,8 +28,8 @@ every dark-grey surface color it finds.
 | `Editor/Generated/UIToolkit/*.uss` | Generated UI Toolkit overrides, one per Unity sheet. |
 | `Editor/StyleSheets/Extensions/Generated/dark.uss` | Generated IMGUI catalog overrides. |
 
-Generated files are merged, not replaced, so projects with different packages (e.g. with/without Timeline)
-can share the package without fighting over the files.
+Generated files are merged, not replaced, so regenerating from several projects with different packages
+(e.g. with/without Timeline) accumulates overrides for all of them.
 
 ### Color rule
 
@@ -40,17 +41,29 @@ Only dark neutral colors change; everything else keeps Unity's value.
 
 ## Install
 
-Package Manager → **+** → **Install package from disk** → `package.json` in this repository.
-This adds a `file:` reference to the project's `Packages/manifest.json`; repeat per project.
-Unity reads the package from this folder on every load, so keep the clone in place.
+Package Manager → **+** → **Install package from git URL**:
 
-Do not install it from a Git URL: the package writes its generated overrides into its own folder,
-which must stay writable. Generated files are git-ignored and rebuilt automatically when missing.
+```
+https://github.com/DimaPetrinko/com.blind.superdark.git#1.1.0
+```
+
+The Git install is read-only: it uses the overrides committed for that version and never regenerates.
 To turn the theme off, remove the package.
+
+## Regenerating (maintainer)
+
+Needed after a Unity upgrade, or to cover styles from packages the shipped overrides miss.
+
+1. Install this clone into a project with **Install package from disk** (a `file:` install is writable).
+2. Open the project: the generator runs on load and writes into `Editor/Generated/` and
+   `Editor/StyleSheets/Extensions/Generated/`, including `.meta` files.
+3. Commit everything (Git installs need the `.meta` files), bump `version` in `package.json`, tag, push.
 
 ## Limits
 
 - Relies on Unity internals (`EditorResources`, `StyleSheetToUss`, `UIElementsEditorUtility`, the extension-sheet
   mechanism). A Unity upgrade can break regeneration; the package then logs a warning and keeps the last generated files.
+- Shipped overrides match the Unity version they were generated on. On a newer Unity, styles it added keep stock colors
+  until you regenerate.
 - Sheets Unity creates at runtime (e.g. `OverlayPreferences`) are not read.
 - The Windows menu bar (File, Edit, …) is native and cannot be styled.

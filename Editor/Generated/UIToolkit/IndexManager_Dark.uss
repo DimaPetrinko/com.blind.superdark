@@ -1,0 +1,6 @@
+.index-manager-variables {
+    --unity-colors-default-border: rgb(16, 16, 20);
+    --unity-theme-background-color-10: rgb(25, 25, 29);
+    --unity-colors-tab-background-checked: rgb(29, 29, 33);
+}
+

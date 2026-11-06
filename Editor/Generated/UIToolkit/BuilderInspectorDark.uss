@@ -1,0 +1,28 @@
+.unity-builder-inspector {
+    --unity-builder-inspector-title-bar-hover: rgb(34, 34, 38);
+}
+
+.unity-builder-inspector__category-foldout > .unity-foldout__header > .unity-label {
+    background-color: rgb(38, 38, 42);
+}
+
+.unity-builder-inspector__category-foldout > .unity-foldout__header > .unity-toggle {
+    background-color: rgb(38, 38, 42);
+}
+
+.unity-builder-inspector__category-foldout > .unity-foldout__header > .unity-label:hover {
+    background-color: rgb(43, 43, 47);
+}
+
+.unity-builder-inspector__category-foldout > .unity-foldout__header > .unity-toggle:hover {
+    background-color: rgb(43, 43, 47);
+}
+
+.unity-builder-inspector__style-category-foldout > .unity-foldout__content {
+    border-top-color: rgb(23, 23, 27);
+}
+
+.unity-builder-inspector__style-category-foldout {
+    border-bottom-color: rgb(15, 15, 19);
+}
+

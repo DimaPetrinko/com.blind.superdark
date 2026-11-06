@@ -1,0 +1,10 @@
+.GraphSubWindow {
+    background-color: rgb(20, 20, 24);
+    border-color: rgb(11, 11, 15);
+}
+
+.GraphSubWindow > .mainContainer > #content > #header {
+    background-color: rgb(27, 27, 31);
+    border-color: rgb(15, 15, 19);
+}
+

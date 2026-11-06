@@ -1,0 +1,8 @@
+PropertySheet > #content > #header {
+    background-color: rgb(27, 27, 31);
+}
+
+PropertySheet > .unity-label {
+    background-color: rgb(14, 14, 18);
+}
+

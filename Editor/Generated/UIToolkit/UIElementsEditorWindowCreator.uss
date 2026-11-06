@@ -1,0 +1,9 @@
+.headerRow {
+    border-color: rgb(17, 17, 21);
+    background-color: rgb(28, 28, 32);
+}
+
+#errorMessageBox {
+    border-color: rgb(17, 17, 21);
+}
+

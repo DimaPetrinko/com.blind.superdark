@@ -1,0 +1,6 @@
+:root {
+    --anchors-background-color: rgb(29, 29, 33);
+    --anchors-border-color: rgb(49, 49, 53);
+    --anchors-preset-point-border-color-hover: rgba(54, 54, 58, 0.52);
+}
+

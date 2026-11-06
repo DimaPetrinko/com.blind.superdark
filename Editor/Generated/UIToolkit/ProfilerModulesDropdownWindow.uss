@@ -1,0 +1,7 @@
+.profiler-modules-dropdown-window__dark:root {
+    --modules__border-color: rgb(16, 16, 20);
+    --module-list-view-item__background-color: rgb(22, 22, 26);
+    --module-list-view-item-hover__background-color: rgb(37, 37, 41);
+    --module-list-view-item-checked__background-color: rgb(37, 37, 41);
+}
+

@@ -1,0 +1,4 @@
+.foldable-section-view__dark:root {
+    --background-color: rgb(23, 23, 27);
+}
+

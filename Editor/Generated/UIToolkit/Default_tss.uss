@@ -1,0 +1,157 @@
+.unity-base-dropdown__container-outer {
+    border-color: rgb(24, 24, 28);
+}
+
+.unity-min-max-slider__dragger {
+    border-color: rgb(49, 49, 53);
+}
+
+.unity-base-text-field__input {
+    border-color: rgb(49, 49, 53);
+}
+
+.unity-toggle__checkmark {
+    border-color: rgb(49, 49, 53);
+}
+
+.unity-toggle > .unity-toggle__input:active:enabled > .unity-toggle__checkmark {
+    border-color: rgb(24, 24, 28);
+}
+
+.unity-toggle > .unity-toggle__input:hover:enabled > .unity-toggle__checkmark {
+    border-color: rgb(24, 24, 28);
+}
+
+.unity-toggle > .unity-toggle__input:checked > .unity-toggle__checkmark {
+    border-color: rgb(49, 49, 53);
+}
+
+.unity-theme-env-variables {
+    --theme-window-border-color: rgb(50, 50, 54);
+    --theme-input-border-color: rgb(49, 49, 53);
+    --theme-input-border-hover-color: rgb(24, 24, 28);
+    --theme-input-border-checked-color: rgb(24, 24, 28);
+    --theme-slider-thumb-border-color: rgb(49, 49, 53);
+    --theme-box-border-color: rgb(41, 41, 45);
+    --theme-radio-button-checkmark-background-color: rgb(41, 41, 45);
+    --theme-base-field-label-mixed-values-color: rgba(3, 3, 7, 0.5);
+}
+
+:root {
+    --unity-colors-box-border: rgb(41, 41, 45);
+    --unity-colors-button-border-pressed: rgb(49, 49, 53);
+    --unity-colors-input_field-border: rgb(49, 49, 53);
+    --unity-colors-input_field-border-hover: rgb(24, 24, 28);
+    --unity-colors-slider_groove-border: rgb(49, 49, 53);
+    --unity-colors-slider_fill-background-disabled: rgb(24, 24, 28);
+    --unity-colors-slider_thumb-border: rgb(49, 49, 53);
+    --unity-colors-slider_thumb-border-hover: rgb(24, 24, 28);
+    --unity-colors-toggle_checkmark-border: rgb(49, 49, 53);
+    --unity-colors-toggle_checkmark-border-hover: rgb(24, 24, 28);
+    --unity-colors-toggle_checkmark-border-pressed: rgb(24, 24, 28);
+    --unity-colors-tabview_tab-handles: rgb(12, 12, 16);
+}
+
+.unity-button:active:enabled {
+    border-color: rgb(49, 49, 53);
+}
+
+.unity-base-popup-field:active:enabled > .unity-enum-field__input {
+    border-color: rgb(49, 49, 53);
+}
+
+.unity-base-popup-field:active:enabled > .unity-base-popup-field__input {
+    border-color: rgb(49, 49, 53);
+}
+
+.unity-base-dropdown__separator {
+    background-color: rgb(24, 24, 28);
+}
+
+.unity-toggle > .unity-toggle__input:hover:checked:enabled > .unity-toggle__checkmark {
+    border-color: rgb(24, 24, 28);
+}
+
+.unity-toggle > .unity-toggle__input:active:enabled:checked > .unity-toggle__checkmark {
+    border-color: rgb(24, 24, 28);
+}
+
+.unity-radio-button__checkmark-background {
+    border-color: rgb(49, 49, 53);
+}
+
+.unity-radio-button__checkmark {
+    background-color: rgb(24, 24, 28);
+}
+
+.unity-radio-button > .unity-radio-button__input:hover:enabled > .unity-radio-button__checkmark-background {
+    border-color: rgb(24, 24, 28);
+}
+
+.unity-base-slider .unity-base-slider__tracker {
+    border-color: rgb(49, 49, 53);
+}
+
+.unity-base-slider .unity-base-slider__dragger {
+    border-color: rgb(49, 49, 53);
+}
+
+.unity-base-slider__dragger:hover:enabled {
+    border-color: rgb(24, 24, 28);
+}
+
+.unity-base-slider__fill:disabled {
+    background-color: rgb(24, 24, 28);
+}
+
+.unity-min-max-slider__tracker {
+    border-color: rgb(49, 49, 53);
+}
+
+.unity-min-max-slider__dragger:hover:enabled {
+    border-color: rgb(24, 24, 28);
+}
+
+.unity-min-max-slider__min-thumb {
+    border-color: rgb(49, 49, 53);
+}
+
+.unity-min-max-slider__max-thumb {
+    border-color: rgb(49, 49, 53);
+}
+
+.unity-box {
+    border-color: rgb(41, 41, 45);
+}
+
+.unity-popup-window {
+    border-color: rgb(50, 50, 54);
+}
+
+.unity-base-text-field:hover:enabled > .unity-base-text-field__input {
+    border-color: rgb(24, 24, 28);
+}
+
+.unity-base-text-field__input:hover:enabled {
+    border-color: rgb(24, 24, 28);
+}
+
+.unity-tab__header:checked > .unity-tab__header-underline {
+    background-color: rgb(12, 12, 16);
+}
+
+.unity-tab__reorderable-handle-bar {
+    background-color: rgb(12, 12, 16);
+}
+
+.unity-style-field #unity-style-field__options-popup-container > .unity-style-field__options-popup > .unity-popup-field__input {
+    border-color: rgb(49, 49, 53);
+}
+
+.unity-internal-vars {
+    --unity-theme-colors-base-4: rgb(49, 49, 53);
+    --unity-theme-colors-base-6: rgb(24, 24, 28);
+    --unity-theme-colors-foreground-disabled-1: rgb(21, 21, 25);
+    --unity-theme-colors-foreground-disabled-2: rgb(43, 43, 47);
+}
+

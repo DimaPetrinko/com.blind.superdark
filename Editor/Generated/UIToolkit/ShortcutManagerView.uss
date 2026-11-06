@@ -1,0 +1,56 @@
+.isProSkin {
+    background-color: rgb(29, 29, 33);
+}
+
+.isProSkin #categoryContainer {
+    border-color: rgb(17, 17, 21);
+    background-color: rgb(27, 27, 31);
+}
+
+.isProSkin #categoryContainer .category-row.first-row-of-section {
+    border-color: rgb(17, 17, 21);
+}
+
+.isProSkin #shortcutsTableContainer {
+    border-color: rgb(17, 17, 21);
+    background-color: rgb(27, 27, 31);
+}
+
+.isProSkin .header {
+    border-color: rgb(17, 17, 21);
+}
+
+.isProSkin #shortcutsTableSearchFilterContainer {
+    border-color: rgb(17, 17, 21);
+}
+
+.isProSkin .filterElement {
+    border-color: rgb(17, 17, 21);
+}
+
+.isProSkin #shortcutResizeHandle VisualElement {
+    background-color: rgb(17, 17, 21);
+}
+
+.isProSkin .keyLegend {
+    background-color: rgb(45, 45, 49);
+    border-color: rgb(27, 27, 31);
+}
+
+.isProSkin Key {
+    background-color: rgb(45, 45, 49);
+    border-color: rgb(27, 27, 31);
+}
+
+.isProSkin Key.modifier {
+    background-color: rgb(36, 36, 40);
+}
+
+.isProSkin Key:hover.modifier {
+    background-color: rgb(48, 48, 52);
+}
+
+.isProSkin Key.reserved {
+    background-color: rgb(37, 37, 41);
+}
+

@@ -1,0 +1,13 @@
+.module-editor-window__dark:root {
+    --module-editor__border-color: rgb(16, 16, 20);
+    --module-editor-toolbar__background-color: rgb(31, 31, 35);
+    --modules__section__background-color: rgb(22, 22, 26);
+    --module-list-view-item-hover__background-color: rgb(37, 37, 41);
+    --module-list-view-item-checked__background-color: rgb(37, 37, 41);
+    --current-module-details__chart-counters__list-container__background-color: rgb(20, 20, 24);
+    --current-module-details__all-counters__tree-view-container__background-color: rgb(20, 20, 24);
+    --current-module-details__counter-list__toolbar__background-color: rgb(24, 24, 28);
+    --current-module-details__no-module-selected-label__background-color: rgb(29, 29, 33);
+    --drag-indicator__line__background-color: rgb(50, 50, 54);
+}
+

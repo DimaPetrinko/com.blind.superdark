@@ -1,0 +1,4 @@
+MiniMap.graphElement {
+    background-color: rgba(49, 49, 53, 0.5);
+}
+

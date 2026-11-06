@@ -1,0 +1,4 @@
+.resource-grid-focus-overlay {
+    background-color: rgba(4, 4, 8, 0.2);
+}
+

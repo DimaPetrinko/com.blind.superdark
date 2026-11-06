@@ -1,0 +1,8 @@
+#unity-debugger-splitter-dragline-anchor {
+    background-color: rgb(49, 49, 53);
+}
+
+.unity-treeview-searchbar {
+    border-color: rgb(49, 49, 53);
+}
+

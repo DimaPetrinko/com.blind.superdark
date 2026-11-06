@@ -1,0 +1,12 @@
+.unity-device-simulator__control-panel_foldout {
+    border-color: rgb(14, 14, 18);
+}
+
+.unity-toolbar-button:focus {
+    border-color: rgb(14, 14, 18);
+}
+
+.unity-device-simulator__scale-label:hover {
+    background-color: rgb(29, 29, 33);
+}
+

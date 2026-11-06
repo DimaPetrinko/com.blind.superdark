@@ -1,0 +1,4 @@
+.dark.root-element.macos {
+    background-color: rgb(29, 29, 33);
+}
+

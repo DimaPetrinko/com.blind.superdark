@@ -1,0 +1,18 @@
+.InspectorView > .mainContainer {
+    background-color: rgb(22, 22, 26);
+    border-color: rgb(11, 11, 15);
+}
+
+.InspectorView > .mainContainer > #content > #header {
+    background-color: rgb(27, 27, 31);
+}
+
+#maxItemsMessageLabel {
+    border-color: rgb(14, 14, 18);
+}
+
+.MainFoldout {
+    background-color: rgb(27, 27, 31);
+    border-color: rgb(14, 14, 18);
+}
+

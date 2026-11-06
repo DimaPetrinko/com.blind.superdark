@@ -1,0 +1,4 @@
+.unity-curve-field__input {
+    background-color: rgb(42, 42, 46);
+}
+

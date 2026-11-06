@@ -1,0 +1,12 @@
+.stack-node {
+    background-color: rgba(12, 12, 16, 0.5);
+}
+
+.stack-node-placeholder {
+    border-color: rgba(30, 30, 34, 0.4);
+}
+
+.stack-node > #borderItem {
+    border-color: rgb(27, 27, 31);
+}
+

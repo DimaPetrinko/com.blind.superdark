@@ -1,6 +1,6 @@
 {
   "name": "com.blind.superdark",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "displayName": "Super Dark Editor",
   "description": "Darker Unity Editor dark theme: overrides the built-in USS color variables at half brightness with a slight blue tint.",
   "unity": "6000.0"

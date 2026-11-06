@@ -1,0 +1,4 @@
+.dropdownContainer {
+    border-color: rgb(48, 48, 52);
+}
+

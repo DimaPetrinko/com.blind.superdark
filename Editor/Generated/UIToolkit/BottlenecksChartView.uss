@@ -1,0 +1,10 @@
+.bottlenecks-chart-view__dark:root {
+    --background-color: rgb(16, 16, 20);
+    --background-color--focussed: rgb(39, 39, 43);
+    --target-menu__background-color--hovered: rgb(30, 30, 34);
+}
+
+.bottlenecks-chart-view__light:root {
+    --target-menu__color: rgb(28, 28, 32);
+}
+

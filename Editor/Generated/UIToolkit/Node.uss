@@ -1,0 +1,25 @@
+#divider {
+    background-color: rgba(16, 16, 20, 0.8);
+    border-color: rgba(16, 16, 20, 0.8);
+}
+
+#node-border {
+    border-color: rgb(11, 11, 15);
+}
+
+#title {
+    background-color: rgba(30, 30, 34, 0.8);
+}
+
+#collapse-button:hover:enabled > #icon {
+    background-color: rgb(20, 20, 24);
+}
+
+#contents > #top > #input {
+    background-color: rgba(30, 30, 34, 0.8);
+}
+
+#contents > #top > #output {
+    background-color: rgba(22, 22, 26, 0.8);
+}
+

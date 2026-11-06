@@ -1,0 +1,45 @@
+.header {
+    border-bottom-color: rgb(24, 24, 28);
+}
+
+.controls {
+    background-color: rgb(27, 27, 31);
+}
+
+.secondary-button {
+    background-color: rgb(27, 27, 31);
+    border-left-color: rgb(41, 41, 45);
+    border-right-color: rgb(41, 41, 45);
+    border-top-color: rgb(41, 41, 45);
+    border-bottom-color: rgb(41, 41, 45);
+}
+
+.secondary-button:hover {
+    background-color: rgb(35, 35, 39);
+}
+
+.add-new-row {
+    background-color: rgb(27, 27, 31);
+    border-left-color: rgb(41, 41, 45);
+    border-right-color: rgb(41, 41, 45);
+    border-top-color: rgb(41, 41, 45);
+    border-bottom-color: rgb(41, 41, 45);
+}
+
+.cancel-button {
+    background-color: rgb(27, 27, 31);
+    border-left-color: rgb(41, 41, 45);
+    border-right-color: rgb(41, 41, 45);
+    border-top-color: rgb(41, 41, 45);
+    border-bottom-color: rgb(41, 41, 45);
+}
+
+.cancel-button:hover {
+    background-color: rgb(35, 35, 39);
+}
+
+.pref-item {
+    background-color: rgb(27, 27, 31);
+    border-bottom-color: rgb(41, 41, 45);
+}
+

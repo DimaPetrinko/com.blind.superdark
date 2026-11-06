@@ -1,0 +1,7 @@
+.preset-list-header {
+    border-left-color: rgb(5, 5, 9);
+    border-right-color: rgb(5, 5, 9);
+    border-top-color: rgb(5, 5, 9);
+    border-bottom-color: rgb(5, 5, 9);
+}
+

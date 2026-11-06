@@ -1,0 +1,8 @@
+.unity-samples-window__style-panel--dark {
+    background-color: rgb(27, 27, 31);
+}
+
+.unity-samples-window__style-panel--light .unity-samples-window__style-foldout {
+    border-color: rgb(27, 27, 31);
+}
+

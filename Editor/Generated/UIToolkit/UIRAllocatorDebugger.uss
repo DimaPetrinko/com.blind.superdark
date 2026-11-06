@@ -1,0 +1,8 @@
+.alloc-stats-container {
+    border-color: rgb(53, 53, 57);
+}
+
+.page-stats {
+    border-color: rgb(41, 41, 45);
+}
+

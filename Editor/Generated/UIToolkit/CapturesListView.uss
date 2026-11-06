@@ -1,0 +1,8 @@
+.captures-list-view--dark:root {
+    --background-color: rgb(27, 27, 31);
+}
+
+#captures-list-view__header-area {
+    border-bottom-color: rgb(16, 16, 20);
+}
+

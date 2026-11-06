@@ -1,0 +1,4 @@
+.search-query-block > .search-query-block__icon {
+    background-color: rgb(27, 27, 31);
+}
+

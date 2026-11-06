@@ -1,0 +1,7 @@
+:root {
+    --box-model-margin-background-color: rgb(40, 40, 44);
+    --box-model-margin-border-color: rgb(50, 50, 54);
+    --checkerboard-odd-cell-color: rgb(19, 19, 23);
+    --checkerboard-even-cell-color: rgb(27, 27, 31);
+}
+

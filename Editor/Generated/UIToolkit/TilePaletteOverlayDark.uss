@@ -1,0 +1,8 @@
+.unity-tilepalette-brushpick > .unity-tilepalette-label-toolbar {
+    background-color: rgb(31, 31, 35);
+}
+
+.unity-tilepalette-brushpick-item__icon {
+    background-color: rgb(29, 29, 33);
+}
+

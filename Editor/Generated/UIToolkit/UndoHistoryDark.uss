@@ -1,0 +1,11 @@
+.unity-listview-item:hover {
+    background-color: rgb(23, 23, 27);
+}
+
+.divider-horizontal {
+    border-left-color: rgb(49, 49, 53);
+    border-right-color: rgb(49, 49, 53);
+    border-top-color: rgb(49, 49, 53);
+    border-bottom-color: rgb(49, 49, 53);
+}
+

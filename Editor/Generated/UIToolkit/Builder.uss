@@ -1,0 +1,17 @@
+#middle-column > .unity-two-pane-split-view__dragline-anchor {
+    background-color: rgb(43, 43, 47);
+}
+
+#code-preview-pane > .unity-two-pane-split-view__dragline-anchor {
+    background-color: rgb(43, 43, 47);
+}
+
+.unity-builder-viewport__canvas-layer.unity-builder-canvas__container--dark {
+    background-color: rgb(27, 27, 31);
+}
+
+.unity-builder-viewport__checkerboard-background.unity-builder-canvas__container--dark {
+    --odd-cell-color: rgb(36, 36, 40);
+    --even-cell-color: rgb(50, 50, 54);
+}
+

@@ -1,0 +1,8 @@
+.Dark .ListRowOddColor {
+    background-color: rgb(26, 26, 30);
+}
+
+.Dark .ListRowEvenColor {
+    background-color: rgb(29, 29, 33);
+}
+

@@ -1,0 +1,13 @@
+.port > #connector {
+    border-color: rgb(34, 34, 38);
+    background-color: rgb(15, 15, 19);
+}
+
+.port > #connector > #cap {
+    background-color: rgb(15, 15, 19);
+}
+
+.port {
+    --disabled-port-color: rgb(34, 34, 38);
+}
+

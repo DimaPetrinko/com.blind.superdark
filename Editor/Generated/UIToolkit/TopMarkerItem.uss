@@ -1,0 +1,4 @@
+.top-marker-item__dark:root {
+    --bar-color: rgb(46, 46, 50);
+}
+

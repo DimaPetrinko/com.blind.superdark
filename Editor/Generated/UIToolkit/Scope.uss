@@ -1,0 +1,5 @@
+.scope {
+    background-color: rgb(11, 11, 15);
+    border-color: rgb(25, 25, 29);
+}
+
